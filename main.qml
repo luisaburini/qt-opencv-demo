@@ -56,7 +56,7 @@ import QtQuick.Window 2.1
 import test.opencv.qt 1.0
 
 Item {
-    width: 800
+    width: 640
     height: 480
     property string faceClassifier: appDir + "/haarcascade_frontalface_default.xml"
     property string qtClassifier: appDir + "/qtlogo.xml"
