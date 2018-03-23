@@ -56,19 +56,19 @@ import QtQuick.Window 2.1
 import test.opencv.qt 1.0
 
 Item {
-    width : 640
-    height : 480
+    width: 800
+    height: 480
     property string faceClassifier: appDir + "/haarcascade_frontalface_default.xml"
     property string qtClassifier: appDir + "/qtlogo.xml"
 
-    Camera {
-        id: camera
-        viewfinder {
-            resolution: "800x640"
-            maximumFrameRate: 15
+    Camera{
+        id:camera
+        deviceId: "/dev/video1"
+        videoRecorder{
+            resolution: "640x480"
+            frameRate: 15
         }
     }
-
 
     function resetRects() {
         matchCount.v = 0;
@@ -102,7 +102,18 @@ Item {
             }
         }
     }
-
+/*
+    Timer{
+        id: timer
+        interval: 15000
+        running: true
+        repeat: true
+        onTriggered: {
+            camera.stop()
+            camera.start()
+        }
+    }
+*/
     VideoOutput {
         id: output
         source: camera
@@ -110,6 +121,7 @@ Item {
         anchors.fill: parent
         fillMode: VideoOutput.Stretch // the rect position calculation above needs this
     }
+
 
     Repeater {
         id: rectHolder
@@ -124,7 +136,7 @@ Item {
 
     Rectangle {
         height: parent.height
-        width: parent.width * 0.2
+        width: parent.width * 0.15
         anchors.right: parent.right
         color: "white"
         opacity: 0.6
@@ -229,13 +241,10 @@ Item {
                         onCheckedChanged: {
                             resetRects();
                             if (checked) {
-                                media.stop();
                                 output.source = camera;
                                 camera.start();
                             } else {
                                 camera.stop();
-                                output.source = media;
-                                media.play();
                             }
                         }
                     }

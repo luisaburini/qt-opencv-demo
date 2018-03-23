@@ -65,7 +65,7 @@ int main(int argc, char **argv)
     QQuickView view;
     view.engine()->rootContext()->setContextProperty("appDir", QGuiApplication::applicationDirPath());
     view.setSource(QUrl("qrc:///main.qml"));
-    view.showFullScreen();
+    view.show();
 
     return app.exec();
 }
