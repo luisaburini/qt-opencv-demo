@@ -45,7 +45,6 @@ LIBS += -lopencv_core \
         -lopencv_shape \
         -lopencv_stitching \
         -lopencv_superres \
-        -lopencv_dnn \
         -lopencv_ml \
 
 

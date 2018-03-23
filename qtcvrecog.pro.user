@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.2, 2018-03-22T17:17:05. -->
+<!-- Written by QtCreator 4.5.2, 2018-03-23T11:42:45. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -531,18 +531,18 @@
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedFiles">
        <value type="QString">/home/lburini/qt-tutorials/build-qtcvrecog-B2Qt-Debug/qtcvrecog</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
-       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/build-qtcvrecog-B2Qt-Debug/qtcvrecog</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
+       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedHosts">
        <value type="QString">10.22.1.167</value>
        <value type="QString">10.22.1.167</value>
        <value type="QString">10.22.1.63</value>
        <value type="QString">10.22.1.63</value>
-       <value type="QString">10.22.1.63</value>
        <value type="QString">10.22.1.167</value>
+       <value type="QString">10.22.1.63</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedRemotePaths">
        <value type="QString">/data/user/qt/qtcvrecog</value>
@@ -564,9 +564,9 @@
        <value type="QDateTime">2018-02-21T15:07:02</value>
        <value type="QDateTime">2018-02-21T15:07:01</value>
        <value type="QDateTime">2018-03-21T10:15:46</value>
-       <value type="QDateTime">2018-03-21T10:15:46</value>
        <value type="QDateTime">2018-03-22T17:07:29</value>
        <value type="QDateTime">2018-02-21T15:07:01</value>
+       <value type="QDateTime">2018-03-21T10:15:46</value>
       </valuelist>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.IgnoreMissingFiles">false</value>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.Incremental">true</value>
