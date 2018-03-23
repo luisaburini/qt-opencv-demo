@@ -56,7 +56,8 @@ import QtQuick.Window 2.1
 import test.opencv.qt 1.0
 
 Item {
-    width: 640
+    id: mainWindow
+    width: 600
     height: 480
     property string faceClassifier: appDir + "/haarcascade_frontalface_default.xml"
     property string qtClassifier: appDir + "/qtlogo.xml"
@@ -135,8 +136,8 @@ Item {
     }
 
     Rectangle {
-        height: parent.height
-        width: parent.width * 0.15
+        height: mainWindow.height
+        width: mainWindow.width * 0.15
         anchors.right: parent.right
         color: "white"
         opacity: 0.6
