@@ -57,8 +57,8 @@ import test.opencv.qt 1.0
 
 Item {
     id: mainWindow
-    width: 600
-    height: 480
+    width: Screen.height > Screen.width ? Screen.height : Screen.width
+    height: Screen.height > Screen.width ? Screen.width : Screen.height
     property string faceClassifier: appDir + "/haarcascade_frontalface_default.xml"
     property string qtClassifier: appDir + "/qtlogo.xml"
 
@@ -117,9 +117,10 @@ Item {
 */
     VideoOutput {
         id: output
+        height: mainWindow.height
+        width: mainWindow.width
         source: camera
         filters: [ filter ]
-        anchors.fill: parent
         fillMode: VideoOutput.Stretch // the rect position calculation above needs this
     }
 
@@ -137,8 +138,9 @@ Item {
 
     Rectangle {
         height: mainWindow.height
-        width: mainWindow.width * 0.15
-        anchors.right: parent.right
+        width: mainWindow.width * 0.25
+        anchors.right: output.right
+        anchors.verticalCenter: mainWindow.verticalCenter
         color: "white"
         opacity: 0.6
 
