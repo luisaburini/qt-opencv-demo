@@ -28,6 +28,7 @@ osx {
 }
 
 INCLUDEPATH += /usr/include/tesseract/
+LIBS += -ltesseract -llept
 
 target.path = /data/user/qt/$$TARGET
 dataFiles.files = *.xml
