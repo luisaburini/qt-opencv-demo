@@ -57,6 +57,7 @@
 #include <QOpenGLFunctions>
 #include <QOpenGLFramebufferObject>
 #include <QDebug>
+#include <tesseract/baseapi.h>
 
 /*
   Returns a QImage that wraps the given video frame.

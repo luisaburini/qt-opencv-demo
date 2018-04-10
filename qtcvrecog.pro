@@ -27,6 +27,8 @@ osx {
     CONFIG += c++11
 }
 
+INCLUDEPATH += /usr/include/tesseract/
+
 target.path = /data/user/qt/$$TARGET
 dataFiles.files = *.xml
 dataFiles.path = /data/user/qt/$$TARGET

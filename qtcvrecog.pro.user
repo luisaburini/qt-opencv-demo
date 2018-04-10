@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.2, 2018-03-26T10:01:35. -->
+<!-- Written by QtCreator 4.5.2, 2018-03-28T16:16:10. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -511,20 +511,20 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">RemoteLinux.DirectUploadStep</value>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedFiles">
-       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
-       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/build-qtcvrecog-B2Qt-Debug/qtcvrecog</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/build-qtcvrecog-B2Qt-Debug/qtcvrecog</value>
+       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
+       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedHosts">
        <value type="QString">10.22.1.167</value>
-       <value type="QString">10.22.1.63</value>
+       <value type="QString">10.22.1.167</value>
        <value type="QString">10.22.1.63</value>
        <value type="QString">10.22.1.63</value>
        <value type="QString">10.22.1.167</value>
-       <value type="QString">10.22.1.167</value>
+       <value type="QString">10.22.1.63</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedRemotePaths">
        <value type="QString">/data/user/qt/qtcvrecog</value>
@@ -543,12 +543,12 @@
        <value type="QString">/usr/local/oecore-x86_64/qt/sysroots/armv7at2hf-neon-angstrom-linux-gnueabi</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedTimes">
-       <value type="QDateTime">2018-02-21T15:07:01</value>
-       <value type="QDateTime">2018-03-21T10:15:46</value>
-       <value type="QDateTime">2018-03-22T17:07:29</value>
-       <value type="QDateTime">2018-03-21T10:15:46</value>
        <value type="QDateTime">2018-02-21T15:07:02</value>
        <value type="QDateTime">2018-02-21T15:07:01</value>
+       <value type="QDateTime">2018-03-22T17:07:29</value>
+       <value type="QDateTime">2018-03-21T10:15:46</value>
+       <value type="QDateTime">2018-02-21T15:07:01</value>
+       <value type="QDateTime">2018-03-21T10:15:46</value>
       </valuelist>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.IgnoreMissingFiles">false</value>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.Incremental">true</value>
@@ -663,7 +663,7 @@
     <value type="int" key="PE.EnvironmentAspect.Base">-1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Custom Executable (on Remote Generic Linux Host)</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Run &quot;&quot; on Linux Device</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">RemoteLinux.CustomRunConfig</value>
     <value type="QString" key="RemoteLinux.CustomRunConfig.Arguments"></value>
     <value type="QString" key="RemoteLinux.CustomRunConfig.LocalExecutable"></value>
@@ -891,9 +891,9 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">RemoteLinux.DirectUploadStep</value>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedFiles">
-       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/qtlogo.xml</value>
        <value type="QString">/home/lburini/qt-tutorials/build-qtcvrecog-B2Qt_OpenCV3_3-Debug/qtcvrecog</value>
+       <value type="QString">/home/lburini/qt-tutorials/qt-opencv-demo/haarcascade_frontalface_default.xml</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedHosts">
        <value type="QString">10.22.1.75</value>
@@ -912,8 +912,8 @@
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedTimes">
        <value type="QDateTime">2018-03-26T09:33:02</value>
-       <value type="QDateTime">2018-03-26T09:33:02</value>
        <value type="QDateTime">2018-03-26T09:40:08</value>
+       <value type="QDateTime">2018-03-26T09:33:02</value>
       </valuelist>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.IgnoreMissingFiles">false</value>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.Incremental">true</value>
